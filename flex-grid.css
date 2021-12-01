@@ -1,0 +1,15 @@
+.container{
+    height: 800px;
+    width: 1000px;
+    border: 2px solid red;
+    display: grid;
+    grid-template-columns:  repeat(4,250px);
+    place-items:center;
+    grid-row-gap: 20px;
+}
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border: 2px solid #000;
+}
